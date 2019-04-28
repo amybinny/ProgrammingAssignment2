@@ -31,3 +31,4 @@ cacheSolve <- function(x, ...) {
   x$setinverse(m)
   m
 }
+cacheSolve(makeCacheMatrix(matrix(1:4,2,2)))
